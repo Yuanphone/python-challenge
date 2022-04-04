@@ -10,7 +10,7 @@ The new empty list "pro_loss=[]" was created, and the "append" method was used t
 ### The changes in "Profit/Losses" over the entire period, and the average of those changes
 In the column"Profit/Losses", the differences between the current numbers and the previous numbers are the changes over the entire period. The new empty list "change=[]" was created to get the values of changes. The avarage of changes is the sum of the new list "change" divided by the length ( the total row number) of this list.
 ### The greatest increase and the greatest decrease in profits (date and amount) over the entire period
-The greatest increase is to find the maximum value of the list of "change", and the greatest decrease is to find the minimum value of the list of "change". Go back to the last step which the list "change" was created, the new list "newmonth" was created to get the values of current dates. The "for" loop and "if" condition were used to find the maximum values and their correspondent dates.
+The greatest increase is to find the maximum value of the list of "change", and the greatest decrease is to find the minimum value of the list of "change". Go back to the last step which the list "change" was created, the new list "newmonth" was created to get the values of current dates. The "for" loop and "if" condition were used to find the maximum and minimum values and their corresponding dates.
 ### Below are the analysis results:
 [analysisresult_pybank.txt](https://github.com/Yuanphone/python-challenge/files/8411518/analysisresult_pybank.txt)
 ## PyPoll
